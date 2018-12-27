@@ -1,0 +1,326 @@
+@media (max-width:600px){
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:480px){
+    #sidebar{display:none;}
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black; 
+    color: white;
+}
+    
+header {
+    padding: 0vw;
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-size: 2vw;
+    font-family: "Source Sans Pro", "Trebuchet MS", "Geneva", sans-serif;
+}
+
+section {
+    display: -webkit-flex;
+    display: flex;
+    min-height: 95vh;
+}
+
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-top: 0vw;
+    padding-left: 1vw;
+    margin: 0;
+    font-family: "Source Sans Pro", "Trebuchet MS", "Geneva", sans-serif;
+    font-size: 1.7vw;
+    overflow: auto;
+}
+
+#menu-icon{
+    display: hidden;
+    width: 40px;
+    height: 40px;
+    background: black url("../menu-icon.png") center;
+}
+
+a:hover#menu-icon{
+    background-color: black;
+    border-radius: 1px 1px 0 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    padding-top: 2vw;
+}
+
+p, li{
+    color: rgb(200,200,200);
+}
+ 
+
+a:link {
+    color: rgb(200,200,200);
+}
+a:visited {
+    color: gray;
+}
+a:hover {
+    color: gray;
+}
+
+article {
+    -webkit-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
+    padding: 2vw;
+    background-image: url("../pictures/dens_LCDM80_Highz.png");
+    font-family: "Source Sans Pro", "Trebuchet MS", "Geneva", sans-serif;
+    font-size: 1.7vw;
+    font-variant: thin;
+}
+
+aside {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 0vw;
+    background-color: black;
+    font-family: "Source Sans Pro", "Trebuchet MS", "Geneva", sans-serif;
+    font-size: 1.4vw;
+}
+
+footer {
+    padding: 0.7vw; 
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-family: "Source Sans Pro", "Trebuchet MS", "Geneva", sans-serif;
+    font-size: 1.4vw;
+}
+
+
+h1{
+    font-family: "Source Sans Pro", "Trebuchet MS", "Geneva", sans-serif;
+    font-size: 3vw;
+    font-variant: small-caps;
+    font-weight: normal;
+/*     text-shadow: 0.1vw 0.1vw 0.2vw #A4A4A4; */
+}
+
+h2{
+    font-family: "Source Sans Pro", "Trebuchet MS", "Geneva", sans-serif;
+    font-size: 2.5vw;
+    font-variant: small-caps;
+    font-weight: normal;
+}
+
+h3{
+    font-family: "Source Sans Pro", "Trebuchet MS", "Geneva", sans-serif;
+    font-size: 2.0vw;
+    font-variant: small-caps;
+    font-weight: normal;
+    margin-top: 0vw;
+    margin-bottom: 0vw; 
+}
+
+h4{
+    color: #a6a6a6;
+    font-family: "Source Sans Pro", "Trebuchet MS", "Geneva", sans-serif;
+    font-size: 1.2vw;
+    font-weight: normal;
+}
+
+h5{
+    font-family: "Source Sans Pro", "Trebuchet MS", "Geneva", sans-serif;
+    font-size: 5vw;
+    font-variant: small-caps;
+    font-weight: normal;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+/*     text-shadow: 0.1vw 0.1vw 0.2vw #A4A4A4; */
+}
+       
+    
+    
+.img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.textwrap{
+    float: right;
+    margin: 1vw;
+}
+
+.textwrapshadowed{
+    float: right;
+    margin: 1vw;
+    border: 0.2vw solid #A4A4A4;
+    box-shadow: 2vw 2vw 1vw #A4A4A4;
+    -moz-box-shadow: 2vw 2vw 1vw #A4A4A4; 
+    -webkit-box-shadow: 2vw 2vw 1vw #A4A4A4; 
+    -khtml-box-shadow: 2vw 2vw 1vw #A4A4A4;
+}
+
+.textwraprounded{
+    float: right;
+    margin: 1vw;
+    border: 0.3vw solid #A4A4A4;
+    -moz-border-radius: 1vw; 
+    -webkit-border-radius: 1vw; 
+    border-radius: 1vw;
+}
+   
+.verticalline {
+    border-left: thin solid gray;
+}
+
+.box {
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*MEDIA QUERY*/
+@media (min-width : 641px) {
+
+    .boxcentered {
+        padding: 1vw;
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        position: relative;
+        top: 40%;
+        transform: translate(0%, -40%);
+    }
+
+    ul > li { }
+    ul > li > ul { 
+        display:none;
+    }
+    ul > li:hover > ul { 
+        display:block;
+    }
+    ul > li > ul { 
+        font-size: 1.2vw;
+        padding-left: 1vw; 
+    }
+}
+
+@media only screen and (max-width : 640px) {
+
+    .boxcentered {
+        position: relative;
+        top: 20%;
+        vertical-align: text-top;
+        padding: 1vw;
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+    }
+
+    header {
+        position: absolute;
+    }
+    
+    nav {
+        -webkit-flex: 0;
+        -ms-flex: 0;
+        flex: 0;
+        font-size: 3.4vw;
+    }
+
+    article {
+        font-size: 3.4vw;
+    }hoverhoverhover
+
+    footer {
+        font-size: 2.8vw;
+    }
+
+    h1{
+        font-size: 6vw;
+    }
+
+    h2{
+        font-size: 5vw;
+    }
+
+    h3{
+        font-size: 4.0vw;
+    }
+
+    h4{
+        font-size: 2.4vw;
+    }
+
+    h5{
+        font-size: 10vw;
+    }
+    
+    #menu-icon {
+        display: inline-block;
+    }
+
+    nav ul, nav:active ul { 
+        display: none;
+        position: absolute;
+        padding: 2vw;
+        background: black;
+        border: 1px solid gray;
+        left: 1vw;
+        top: 2vw;
+        width: 80%;
+        border-radius: 1vw 1vw 1vw 1vw;
+        z-index: 1;
+    }
+
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 2vw 0;
+        margin: 0;
+        z-index: 1;
+    }
+
+    nav:hover ul {
+        display: inline-block;
+    }
+    
+    nav:hover ul > li { }
+    nav:hover ul > li > ul { 
+        display: none;
+    }
+    nav:hover ul > li:hover > ul { 
+        display: block;
+        position: absolute;
+        top: 2vw;
+        width: 40%;
+        height: 80%;
+    }
+    nav:hover ul > li > ul { 
+        font-size: 2.4vw;
+        padding-left: 1vw; 
+    }
+
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Anne Hutter</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body>
+<!--         <header> --> 
+<!--         </header> -->
+        
+        <section>
+            <!-- Site navigation menu -->
+            <nav>
+                <a href="#" id="menu-icon"></a>
+                <ul>
+                    <li>
+                        <h3>Anne Hutter</h3>
+                        <h4>
+                            <br>Postdoctoral Researcher
+                            <br>Kapteyn Astronomical Institute
+                            <br>Rijksuniversiteit Groningen
+                        </h4>
+                    </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="research.html">Research</a>
+                        <ul>
+                            <li><a href="research.html#Hutter2018b">Survey parameters for detecting 21cm-LAE cross correlations with SKA</a></li>
+                            <li><a href="research.html#Hutter2018a">The accuracy of semi-numerical reionization model in comparison with radiative transfer</a></li>
+                            <li><a href="research.html#Hutter2017">Exploring 21cm-Lya emitter synergies for SKA</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="codes.html">Codes</a>
+                        <ul>
+                            <li><a href="codes.html#cifog">CIFOG</a></li>
+                            <li><a href="codes.html#polyspectrum">Polyspectrum</a></li>
+                            <li><a href="codes.html#pcf">PCF</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://ui.adsabs.harvard.edu//#search/filter_database_fq_database=OR&filter_database_fq_database=database%3A%22astronomy%22&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3A%22astronomy%22)&q=author%3A(%22Hutter%2C%20Anne%22)&sort=date%20desc%2C%20bibcode%20desc&warning_message=when%20the%20astronomy%20or%20physics%20databases%20are%20selected%2C%20the%20arXiv%20selection%20is%20ignored&p_=0" target="_blank">Publications</a></li>
+<!--                     <li><a href="privacy.html">Privacy</a></li> -->
+                    <li><a href="mailto:a.k.hutter@rug.nl"> Contact </a>
+                </ul>
+            </nav>
+            <div class="verticalline"> </div>
+            
+            <!-- Main content -->
+            <article>
+                <h1> Numerical codes </h1>
+                <hr>
+                
+                <div class="verticalline"> </div>
+
+                <div class="box">
+                <div id="cifog"> </div>
+                <h2> CIFOG </h2>
+                <p> CIFOG is a versatile <b>MPI-parallelised semi-numerical</b> tool to perform simulations of the <b>Epoch of Reionization</b>. From a set of evolving cosmological gas density and ionizing emissivity fields, it computes the time and spatially dependent ionization of neutral hydrogen (HI), neutral (HeI) and singly ionized helium (HeII) in the intergalactic medium (IGM). The code accounts for HII, HeII, HeIII recombinations, and provides different descriptions for the photoionization rate that are used to calculate the residual HI fraction in ionized regions. </p>
+                <p>This tool has been designed to be coupled to semi-analytic galaxy formation models or hydrodynamical simulations. The modular fashion of the code allows the user to easily introduce new descriptions for recombinations and the photoionization rate. </p>
+                <p> CIFOG is described in <a href="https://ui.adsabs.harvard.edu//#abs/2018MNRAS.477.1549H/abstract" target="_blank">Hutter (2018)</a> and also listed in the <a href="https://ascl.net/1803.002" target="_blank">Astrophysics Source Code Library</a>. The source code and instructions for compilation and execution are available <a href="https://github.com/annehutter/grid-model" target="_blank"> here </a>.</p>
+                </div>
+            
+                <br><br>
+
+                <div class="box">
+                <div id="polyspectrum"> </div>
+                <h2> Polyspectrum </h2>
+                <p> Polyspectrum is a <b>MPI-parallelised</b> code that computes <b>polyspectra</b> from a 3D grid of values, using the method described in <a href="http://adsabs.harvard.edu/abs/2017MNRAS.472.2436W" target="_blank"> Watkinson et al. (2017) </a> To date this code supports the computation of powerspectra and bispectra, however it can be easily extended to higher orders. A comparison to an analytical model is available <a href="https://github.com/annehutter/polyspectrum/blob/master/bispectra_tests.pdf" target="_blank">here</a>. </p>
+                <p> Source code and instructions for compilation and execution can be found <a href="https://github.com/annehutter/polyspectrum" target="_blank">here</a>. </p> 
+                </div>
+                
+                <br><br>
+
+                <div class="box">
+                <div id="pcf"> </div>
+                <h2> PCF (Parallel Correlation Function) </h2>
+                <p> PCF is a <b>MPI-parallelised</b> library that allows to compute the <b>two-point correlation functions</b> between a set of points. It supports the calculations of 3D and angular correlation functions using the Landy-Szalay estimator. Data and random points are distributed over domains, and pairs are calculated within and across domains. </p>
+                <p> Source code and instructions for compilation and execution can be found <a href="https://github.com/annehutter/pcf" target="_blank">here</a>. </p>
+                </div>
+                
+                <br><br>
+
+                <div class="box">
+                <p> An overview of all my publicly available codes can be found on my <a href="https://github.com/annehutter?tab=repositories" target="_blank"> github page </a>. </p>
+                </div>
+
+           </article>
+
+        </section>
+        
+        <footer>
+            <i> Hosted by <a href="https://github.com/" target="_blank"> github </a> - <a href="https://help.github.com/articles/github-privacy-statement/" target="_bank"> Privacy </a></i>
+        </footer>
+    </body>
+</html>

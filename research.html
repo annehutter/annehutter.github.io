@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Anne Hutter</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body>
+<!--         <header> --> 
+<!--         </header> -->
+        
+        <section>
+            <!-- Site navigation menu -->
+            <nav>
+                <a href="#" id="menu-icon"></a>
+                <ul>
+                    <li>
+                        <h3>Anne Hutter</h3>
+                        <h4>
+                            <br>Postdoctoral Researcher
+                            <br>Kapteyn Astronomical Institute
+                            <br>Rijksuniversiteit Groningen
+                        </h4>
+                    </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="research.html">Research</a>
+                        <ul>
+                            <li><a href="research.html#Hutter2018b">Survey parameters for detecting 21cm-LAE cross correlations with SKA</a></li>
+                            <li><a href="research.html#Hutter2018a">The accuracy of semi-numerical reionization model in comparison with radiative transfer</a></li>
+                            <li><a href="research.html#Hutter2017">Exploring 21cm-Lya emitter synergies for SKA</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="codes.html">Codes</a>
+                        <ul>
+                            <li><a href="codes.html#cifog">CIFOG</a></li>
+                            <li><a href="codes.html#polyspectrum">Polyspectrum</a></li>
+                            <li><a href="codes.html#pcf">PCF</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://ui.adsabs.harvard.edu//#search/filter_database_fq_database=OR&filter_database_fq_database=database%3A%22astronomy%22&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3A%22astronomy%22)&q=author%3A(%22Hutter%2C%20Anne%22)&sort=date%20desc%2C%20bibcode%20desc&warning_message=when%20the%20astronomy%20or%20physics%20databases%20are%20selected%2C%20the%20arXiv%20selection%20is%20ignored&p_=0" target="_blank">Publications</a></li>
+<!--                     <li><a href="privacy.html">Privacy</a></li> -->
+                    <li><a href="mailto:a.k.hutter@rug.nl"> Contact </a>
+                </ul>
+            </nav>
+            <div class="verticalline"> </div>
+            
+            <!-- Main content -->
+            <article>
+                <h1> Research interests: The Epoch of Reionization </h1>
+                <hr>
+                
+                <div class="verticalline"> </div>
+                
+                <img src="EoR_flipped.png" width=100%>
+                
+<!--                <picture>
+                <source srcset="EoR_flipped.png" media="(max-width: 1000px)">
+                <source srcset="EoR_flipped.png">
+                <img srcset="EoR_flipped.png" alt="EoR">
+                </picture>-->
+                <div class="box">
+                <p> My main research interest lies in the Epoch of Reionization, the second major phase transition in the Universe, when ionizing photons from the first stars and galaxies gradually ionize the hydrogen in the intergalactic medium (IGM). Using theoretical models and numerical simulations of high-redshift galaxy evolution and reionization, I aim at finding answers to these intriguing questions: </p>
+                <ul>
+                    <li> What were the properties of the first galaxies? </li>
+                    <li> How did reionization proceed? </li>
+                    <li> How did reionization affect the physical processes in early galaxy formation and evolution? </li>
+                </ul>
+                <p> My models provide predictions for observables, such as the 21cm signal from the intergalactic medium, emission lines (e.g. Lyman-&alpha;) or UV radiation from high-redshift galaxies during reionization. </p>
+                </div>
+                
+                <hr>
+                <h1> Research highlights </h1>
+                <hr>
+                
+                <div class="box">
+                    <div id="Hutter2018b"> </div>
+                    <h3> Survey parameters for detecting 21cm-lae cross correlations with ska <br> <a href="https://ui.adsabs.harvard.edu//#abs/2018MNRAS.479L.129H/abstract" target="_blank"> <i> (Hutter, Trott, Dayal 2018) </i> </a> </h3>
+                    
+                    <img class=textwraprounded src="corrfunc_21cm_LAE_volume_dependence.png" style="max-width:70%;" float="right">
+
+                    <p> 21cm-LAE cross correlations can provide a relative robust measurements of the IGM neutral hydrogen fraction during reionization, but low observational uncertainties will be key for detecting this cross correlation signal. However, the reduction of the uncertainties arising from the 21cm signal measurements and the LAE observations favour opposite survey designs. While the uncertainties in the 21cm signal detection are reduced by larger survey volumes, the shot noise arising from the finite number of LAEs decreases with the survey limiting Ly&alpha; luminosity, the faintest detectable Ly&alpha; luminosity, demanding for deeper observations. In this paper, we pursue the question of which survey design (i.e. survey volume versus limiting Lyα luminosity) would be optimal and feasible to minimise the 21cm-LAE cross correlation uncertainties. </p>
+                </div>
+                
+                <br><br>
+                
+                <div class="box">
+                    <div id="Hutter2018a"> </div>
+                    <h3> The accuracy of seminumerical reionization models in comparison with radiative transfer <br> <i> <a href="https://ui.adsabs.harvard.edu//#abs/2018MNRAS.477.1549H/abstract" target="_blank"> (Hutter 2018) </a> </i> </h3>
+                    
+                    <img class=textwraprounded src="HandHe_ion_fields.png" style="max-width:70%;" float="right">
+
+                    <p> I have developed a modular seminumerical <a href="codes.html#cifog">code</a> that computes the time and spatially dependent ionization of neutral hydrogen, neutral and single-ionized helium in the intergalactic medium. My model accounts also for recombinations and provides different descriptions for the photoionization rate that are used to calculate the residual HI fraction in ionized regions. In this paper I compare different seminumerical reionization schemes to a radiative transfer simulation: In contrast to previous comparison projects, I do not adjust the ionizing emissivity in my seminumerical scheme to reproduce the redshift evolution of the RT simulation, but derive it directly from the RT simulation spectra. This comparison highlights the limitations of these seminumerical reionization models in constraining ionizing-emissivity sensitive parameters in galaxy formation. </p>
+                </div>
+                
+                <br><br>
+                
+                <div class="box">
+                    <div id="Hutter2017"> </div>
+                    <h3> Exploring 21cm-ly&alpha; emitter synergies for ska <br> <a href="https://ui.adsabs.harvard.edu//#abs/2017ApJ...836..176H/abstract" target="_blank"> <i> (Hutter, Dayal, Müller, Trott 2017) </i> </a> </h3>
+                    
+                    <img class=textwraprounded src="21cm_LAE.png" style="max-width:60%;" float="right">
+
+                    <p> We study the signatures of reionization and ionizing properties of early galaxies in the cross-correlations between the 21 cm emission from the spin-flip transition of neutral hydrogen and the underlying galaxy population. With LAEs occupying the densest and most-ionized regions, the anti-correlation between the LAEs and the 21 cm emission is the strongest and provides an indicator of the ionization level of the intergalactic medium that will be detectable with SKA. We also find that detecting a lower 21cm brightness temperature (by about 2-10 mK) in the densest regions (≳2 arcmin scales) hosting LAEs, compared to lower-density regions devoid of LAEs, is a measurable tracing an inside-out reionization topology. </p>
+                </div>
+                
+            </article>
+
+        </section>
+        
+        <footer>
+            <i> Hosted by <a href="https://github.com/" target="_blank"> github </a> - <a href="https://help.github.com/articles/github-privacy-statement/" target="_bank"> Privacy </a></i>
+        </footer>
+    </body>
+</html>
