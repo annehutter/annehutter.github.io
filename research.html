@@ -28,6 +28,9 @@
                     <li><a href="cv.html">CV</a></li>
                     <li><a href="research.html">Research</a>
                         <ul>
+                            <li><a href="research.html#Hutter2020">The 21cm bispectrum: a tracer of the ionization topology</a></li>
+                            <li><a href="research.html#Hutter2019">Astro 2020: A proposal to exploit galaxy-21cm synergies to shed light on the epoch of reionization</a></li>
+                            <li><a href="research.html#Seiler2019">The escape fraction of ionizing photons during the epoch of reionization: observability with the SKA</a></li>
                             <li><a href="research.html#Hutter2018b">Survey parameters for detecting 21cm-LAE cross correlations with SKA</a></li>
                             <li><a href="research.html#Hutter2018a">The accuracy of semi-numerical reionization model in comparison with radiative transfer</a></li>
                             <li><a href="research.html#Hutter2017">Exploring 21cm-Lya emitter synergies for SKA</a></li>
@@ -40,7 +43,7 @@
                             <li><a href="codes.html#pcf">PCF</a></li>
                         </ul>
                     </li>
-                    <li><a href="https://ui.adsabs.harvard.edu//#search/filter_database_fq_database=OR&filter_database_fq_database=database%3A%22astronomy%22&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3A%22astronomy%22)&q=author%3A(%22Hutter%2C%20Anne%22)&sort=date%20desc%2C%20bibcode%20desc&warning_message=when%20the%20astronomy%20or%20physics%20databases%20are%20selected%2C%20the%20arXiv%20selection%20is%20ignored&p_=0" target="_blank">Publications</a></li>
+                    <li><a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=database%3A%20astronomy&p_=0&q=author%3A(%22Hutter%2C%20Anne%22)&sort=date%20desc%2C%20bibcode%20desc" target="_blank">Publications</a></li>
 <!--                     <li><a href="privacy.html">Privacy</a></li> -->
                     <li><a href="mailto:a.k.hutter@rug.nl"> Contact </a>
                 </ul>
@@ -74,6 +77,39 @@
                 <hr>
                 <h1> Research highlights </h1>
                 <hr>
+              
+                <div class="box">
+                    <div id="Hutter2020"> </div>
+                    <h3> The 21cm bispectrum during reionization: a tracer of the ionization topology <br> <a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.492..653H/abstract" target="_blank"> <i> (Hutter, Watkinson, Seiler, Dayal, Sinha, Croton 2020) </i> </a> </h3>
+                    
+                    <img class=textwraprounded src="sketch_interpreting_bispectrum.png" style="max-width:45%;" float="right">
+
+                    <p> We analyse the link between characteristics in the 21cm bispectrum during reionization and the ionization topology by using three different reionization scenarios from <a href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.487.5739S/abstract" target="_blank"> <i> Seiler et al. 2019 </i> </a> that differ in their trends of the ionizing escape fractions with the underlying galaxy properties (i.e. the ionizing escape fraction effectively decreasing, being constant, or increasing with halo mass). From squeezed to stretched triangles, we compute the 21cm bispectra with <a href="codes.html#polyspectrum">Polyspectrum</a> and find the sign change in the 21cm bispectrum to be sensitive to the the size distribution of the ionized and neutral regions throughout reionization. </p>
+                </div>
+                
+                <br><br>
+                
+               <div class="box">
+                    <div id="Hutter2019"> </div>
+                    <h3> Astro 2020: A proposal to exploit galaxy-21cm synergies to shed light on the epoch of reionization <br> <a href="https://ui.adsabs.harvard.edu/abs/2019BAAS...51c..57H/abstract" target="_blank"> <i> (Hutter et al. 2019) </i> </a> </h3>
+                    
+<!--                     <img class=textwraprounded src="sketch_interpreting_bispectrum.png" style="max-width:45%;" float="right"> -->
+
+                    <p> This white paper outlines the benefits of synergizing WFIRST, Subaru Hyper Suprime-Cam or other >25m-class telescopes galaxy observations with SKA 21cm measurements to constrain the nature of reionization (ionization history and topology) and its sources.  </p>
+                </div>
+                
+                <br><br>
+                
+               <div class="box">
+                    <div id="Seiler2019"> </div>
+                    <h3> The escape fraction of ionizing photons during the epoch of reionization: observability with the SKA <br> <a href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.487.5739S/abstract" target="_blank"> <i> (Seiler, Hutter, Sinha, Croton 2019) </i> </a> </h3>
+                    
+<!--                     <img class=textwraprounded src="sketch_interpreting_bispectrum.png" style="max-width:45%;" float="right"> -->
+
+                    <p> This paper introduces the <a href="https://github.com/jacobseiler/rsage" target="_blank"> RSAGE </a> model that self-consistently couples the semi-analytical galaxy evolution model <a href="https://github.com/sage-home/sage-model" target="_blank"> SAGE </a> to my semi-numerical reionization scheme <a href="codes.html#cifog" target="_blank"> CIFOG </a>. Furthermore, we explore how physically motivated functional forms of the escape fraction of ionizing photons from galaxies, i.e. linking the ionizing escape fraction to galaxy properties, affect the evolution of ionized hydrogen within the intergalactic medium and the ionization topology. We find that the large-scale power in the power spectrum of the 21cm signal provides the most sensitive tracer of the sizes of the larger ionized regions that upcoming 21cm surveys with SKA will detect. </p>
+                </div>
+                
+                <br><br>
                 
                 <div class="box">
                     <div id="Hutter2018b"> </div>
