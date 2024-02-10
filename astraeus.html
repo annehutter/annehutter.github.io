@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Anne Hutter</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body>
+<!--         <header> -->
+<!--         </header> -->
+
+        <section>
+            <!-- Site navigation menu -->
+            <nav>
+                <a href="#" id="menu-icon"></a>
+                <ul>
+                    <li>
+                        <h3>Anne Hutter</h3>
+                        <h4>
+                            <br>Postdoctoral Research Fellow
+                            <br>Cosmic Dawn Center
+                            <br>Niels Bohr Institute
+                            <br>University of Copenhagen
+                        </h4>
+                    </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="research.html">Research</a>
+                        <ul>
+                            <li><a href="research.html#Cueto2024">The impact of an evolving stellar initial mass function on early galaxies and reionisation</a></li>
+                            <li><a href="research.html#Hutter2023b">On the general nature of 21cm-Lyman-alpha emitter cross-correlations during reionization</a></li>
+                            <li><a href="research.html#Hutter2023a">Astraeus VIII: A new framework for Lyman-alpha emitters applied to different reionisation scenarios</a></li>
+                            <li><a href="research.html#Hutter2021b">Astraeus III: The environment and physical properties of reionization sources</a></li>
+                            <li><a href="research.html#Hutter2021a">Astraeus I: the interplay between galaxy formation and reionization</a></li>
+                            <li><a href="research.html#Hutter2020">The 21cm bispectrum: a tracer of the ionization topology</a></li>
+                            <li><a href="research.html#Hutter2019">Astro 2020: A proposal to exploit galaxy-21cm synergies to shed light on the epoch of reionization</a></li>
+                            <li><a href="research.html#Seiler2019">The escape fraction of ionizing photons during the epoch of reionization: observability with the SKA</a></li>
+                            <li><a href="research.html#Hutter2018b">Survey parameters for detecting 21cm-LAE cross correlations with SKA</a></li>
+                            <li><a href="research.html#Hutter2018a">The accuracy of semi-numerical reionization model in comparison with radiative transfer</a></li>
+                            <li><a href="research.html#Hutter2017">Exploring 21cm-Lya emitter synergies for SKA</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="astraeus.html">Astraeus</a></li>
+                    <li><a href="codes.html">Codes</a>
+                        <ul>
+                            <li><a href="codes.html#cifog">CIFOG</a></li>
+                            <li><a href="codes.html#astraeus">ASTRAEUS</a></li>
+                            <li><a href="codes.html#polyspectrum">Polyspectrum</a></li>
+                            <li><a href="codes.html#pcf">PCF</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=database%3A%20astronomy&p_=0&q=author%3A(%22Hutter%2C%20Anne%22)&sort=date%20desc%2C%20bibcode%20desc" target="_blank">Publications</a></li>
+<!--                     <li><a href="privacy.html">Privacy</a></li> -->
+                    <li><a href="mailto:anne.hutter@nbi.ku.dk"> Contact </a>
+                </ul>
+            </nav>
+            <div class="verticalline"> </div>
+
+            <!-- Main content -->
+            <article>
+                <h1> <a href="codes.html#astraeus">ASTRAEUS</a> framework - a fast and self-consistent model for early galaxy evolution and reionisation </h1>
+                <hr>
+
+                <div class="verticalline"> </div>
+
+<!--                 <img src="EoR_public.png" width=100%> -->
+
+                <div class="box">
+                <p> <a href="codes.html#astraeus">ASTRAEUS</a> couples a semi-analytic galaxy evolution model with a semi-numerical reionisation code and runs on the outputs of high-resolution, large-volume dark matter simulations. It follows the essential physical processes governing early galaxy evolution and reionisation by post-processing a dark matter only simulation’s mass assembly histories of dark matter halos and the evolving spatial distribution of the matter density. For each simulated galaxy and at each time, it tracks the amount of gas accreted, the gas and stellar mass merged, the formation of stars and their feedback through supernovae and metal enrichment. It also follows the large-scale reionisation process, tracking the time and spatial evolution of the ionised regions within the intergalactic gas, and its feedback on the gas content in galaxies. </p>
+                </div>
+
+                <hr>
+                <h1> Publications </h1>
+                <hr>
+
+                <div class="box">
+                    <div id="Cueto2024"> </div>
+                    <h3> The impact of an evolving stellar initial mass function on early galaxies and reionisation <br> <a href="https://ui.adsabs.harvard.edu/abs/2023arXiv231212109R/abstract" target="_blank"> <i> (Cueto, Hutter, Dayal, Gottlöber, Heintz, Mason, Trebitsch, Yepes, 2024) </i> </a> </h3>
+
+                    <p> Observations with JWST have revealed an unexpected high abundance of bright z>10 galaxy candidates. We explore whether a stellar initial mass function (IMF) that becomes increasingly top-heavy towards higher redshifts and lower gas-phase metallicities results in a higher abundance of bright objects in the early universe and how it affects the evolution of galaxy properties compared to a constant IMF. We incorporate such an evolving IMF into the <a href="codes.html#astraeus">ASTRAEUS</a> framework that couples galaxy evolution and reionisation in the first billion years. Our implementation accounts for the IMF dependence of supernova feedback, metal enrichment, ionising and ultraviolet radiation emission. We conduct two simulations: one with a Salpeter IMF and one with the evolving IMF. Our results suggest that a top-heavier IMF alone is unlikely to explain the higher abundance of bright z>10 sources, since the lower mass-to-light ratio is counteracted by the stronger stellar feedback. </p>
+                </div>
+
+                <br><br>
+
+                <div class="box">
+                    <div id="Hutter2023b"> </div>
+                    <h3>  On the general nature of 21cm-Lyman-alpha emitter cross-correlations during reionization  <br> <a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.525.1664H/abstract" target="_blank"> <i> (Hutter, Heneka, Dayal, Gottlöber, Mesinger, Trebitsch, Yepes, 2023) </i> </a> </h3>
+
+                    <p> We examine how the cross-correlation functions between 21-cm emission from neutral hydrogen and Lyman-alpha radiation-emitting galaxies (Lyman-alpha emitters) depend on the reionisation history, topology, and simulated volume. We develop an analytic expression for the 21cm-LAE cross-correlation function and compare it with results from <a href="codes.html#astraeus">ASTRAEUS</a> and 21cmFAST reionisation simulations covering a physically plausible range of scenarios where either the low-mass or more massive galaxies drive reionisation. Our results show that the small-scale cross-correlation amplitude depends on the intergalactic medium's average neutral hydrogen fraction and spin-temperature weighted overdensity in neutral regions, while the cross-correlation function's inversion point traces the peak of the size distribution of ionised regions around Lyman-alpha emitters. This makes 21cm-LAE cross-correlations sensitive to both the reionisation history and topology. </p>
+                </div>
+
+                <br><br>
+
+                <div class="box">
+                    <div id="Hutter2023a"> </div>
+                    <h3> Astraeus VIII: A new framework for Lyman-alpha emitters applied to different reionisation scenarios <br> <a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.524.6124H/abstract" target="_blank"> <i> (Hutter, Trebitsch, Dayal, Gottlöber, Yepes, Legrand, 2023) </i> </a> </h3>
+
+                    <p> We extend the <a href="codes.html#astraeus">ASTRAEUS</a> simulations by a new model for Lyman-alpha emitters for the two physically plausible bracketing scenarios of the escape fraction of ionising photons increasing and decreasing with rising halo mass. Our new model parameterises results from numerical Lyman-alpha radiative transfer simulations and introduces novel analytic Lyman-alpha line profile models that describe the surrounding interstellar medium as outflowing dusty gas clumps, with one of them relating the escape fraction of Lyman-alpha photons to that of ionising photons. We find that during reionisation Lyman-alpha emitters are relatively massive galaxies residing in overdense and highly ionised regions. For this reason, their spatial distribution is primarily sensitive to the global ionisation fraction and only eakly to the ionisation topology or a halo mass dependent escape fraction of ionising photons. </p>
+                </div>
+
+                <br><br>
+
+                <div class="box">
+                    <div id="Legrand2023"> </div>
+                    <h3> Astraeus VII: The environmental-dependent assembly of galaxies in the Epoch of Reionization <br> <a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.519.4564L/abstract" target="_blank"> <i> (Legrand, Dayal, Hutter, Gottlöber, Yepes, Trebitsch, 2023) </i> </a> </h3>
+
+                    <p> We explore how environmental density and radiative feedback affect the assemly of galaxies and halos during reionisation. Our analysis reveals that there is a mass- and redshift-dependent characteristic environment where galaxies are most efficient at accreting matter; the number of mergers increases with halo mass at all redshifts; minor mergers slightly dominate dark matter assembly, while major mergers dominate stellar assembly at z = 5; and radiative feedbakc being more efficient in suppressing star formation in low-mass galaxies in over-dense environments. </p>
+                </div>
+
+                <br><br>
+
+                <div class="box">
+                    <div id="Trebitsch2023"> </div>
+                    <h3> Astraeus VI: Hierarchical assembly of AGN and their large-scale effect during the Epoch of Reionization  <br> <a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.518.3576T/abstract" target="_blank"> <i> (Trebitsch, Hutter, Dayal, Gottlöber, Legrand, Yepes, 2023) </i> </a> </h3>
+
+                    <p> We extend Astraeus by a model for black-hole formation, growth, and the production of ionizing radiation from associated active galactic nuclei (AGNs). With this updated framework, we explore the role of AGN in reionising the Universe for models reproducing the bolometric luminosity function at z = 5. All the models yielding a reasonable AGN luminosity function, galaxies dominate overwhelmingly the ionising budget during the Epoch of Reionization, with AGN accounting for 1-10 per cent of the ionizing budget at z = 6 and starting to play a role only below z ≲ 5.  </p>
+                </div>
+
+                <br><br>
+
+                <div class="box">
+                    <div id="Ucci2023"> </div>
+                    <h3> Astraeus V: the emergence and evolution of metallicity scaling relations during the epoch of reionization <br> <a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.518.3557U/abstract" target="_blank"> <i> (Ucci, Dayal, Hutter, Kobayashi, Gottlöber, Yepes, Hunt, Legrand, Tortora, 2023) </i> </a> </h3>
+
+                    <p> We implement a detailed physical model for metal enrichment into Astraeus. Our updated framework shows that the mass-metallicity relation is already in place at z~10 and shows effectively no redshift evolution down to z~5, whereas, for a given stellar mass, the metallicity decreases with an increase in the star formation rate. Overall we can identify a high-redshift fundamental plane of metallicity that links gas-phase metallicity, stellar mass, star formation rate and redshift. </p>
+                </div>
+
+                <br><br>
+
+                <div class="box">
+                    <div id="Legrand2022"> </div>
+                    <h3> Astraeus IV: quantifying the star formation histories of galaxies in the Epoch of Reionization <br> <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.509..595L/abstract" target="_blank"> <i> (Legrand, Hutter, Dayal, Ucci, Gottlöber, Yepes, 2022 </i> </a> </h3>
+
+                    <p> In this paper we analyse the star formation histories of Astraeus simulations assuming different radiative feedback from reionisation models. In particular, we investigate which galaxies show stochastic star formation (it is the lower mass galaxies where star formation is stellar feedback limited) and how much stellar mass is accumulated in this stochastic star formation phase (fewer the more massive the galaxy). </p>
+                </div>
+
+                <br><br>
+
+                <div class="box">
+                    <div id="Hutter2021b"> </div>
+                    <h3> Astraeus III: The environment and physical properties of reionization sources <br> <a href="https://ui.adsabs.harvard.edu/abs/2020arXiv200813215H/abstract" target="_blank"> <i> (Hutter, Dayal, Legrand, Gottlöber, Yepes, 2021) </i> </a> </h3>
+
+                    <img class=textwraprounded src="CARTOON_z7.png" style="max-width:35%;" float="right">
+
+                    <p> We use the <a href="codes.html#astraeus">ASTRAEUS</a> simulations to investigate how strongly the galaxy populations driving reionization are determined by the nature of radiative feedback from reionization and the escape fraction of ionizing photons from galaxies. We focus on two key quantities describing galaxy populations, the galaxies' gravitational potentials and their environment/location in the cosmic web. </p>
+                </div>
+
+                <br><br>
+
+                <div class="box">
+                    <div id="Ucci2021"> </div>
+                    <h3> Astraeus II: Quantifying the impact of cosmic variance during the Epoch of Reionization <br> <a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.506..202U/abstract" target="_blank"> <i> (Ucci, Dayal, Hutter, Yepes, Gottlöber, Legrand, Pentericci, Castellano, Choudhury, 2021) </i> </a> </h3>
+
+                    <p> We use Astraeus simulations to explore the key drivers of the cosmic variance in the ultraviolet luminosity function and stellar mass function derived from JWST surveys. We find that cosmic variance is primarily driven by the underlying density field and hardly by the exact reionisation scenario. </p>
+                </div>
+
+                <br><br>
+
+                <div class="box">
+                    <div id="Hutter2021a"> </div>
+                    <h3> Astraeus I: the interplay between galaxy formation and reionization <br> <a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.3698H/abstract" target="_blank"> <i> (Hutter, Dayal, Yepes, Gottlöber, Legrand, Ucci, 2021) </i> </a> </h3>
+
+                    <img class=textwraprounded src="fields_XHI_52_x256.png" style="max-width:55%;" float="right">
+
+                    <p> This paper introduces my self-consistent model of galaxy evolution and reionization, <a href="codes.html#astraeus">ASTRAEUS</a> (seminumerical rAdiative tranSfer coupling of galaxy formaTion and Reionization in N-body dArk mattEr simUlationS), which couples a state-of-the-art N-body simulation with the semi-analytical galaxy evolution DELPHI and my seminumerical reionization scheme <a href="codes.html#cifog">CIFOG</a>. <a href="codes.html#astraeus">ASTRAEUS</a> includes all the key processes of galaxy formation and evolution (including accretion, mergers, supernova, and radiative feedback) and follows the time and spatial evolution of the ionized regions in the intergalactic medium (IGM). We explore the impact of different radiative feedback models, ranging from a weak and delayed to a strong and immediate reduction of gas mass available for star formation, on the star formation histories of galaxies and the ionization topology.</p>
+                </div>
+
+            </article>
+
+        </section>
+
+        <footer>
+            <i> Hosted by <a href="https://github.com/" target="_blank"> github </a> - <a href="https://help.github.com/articles/github-privacy-statement/" target="_bank"> Privacy </a></i>
+        </footer>
+    </body>
+</html>
